@@ -1,0 +1,34 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel-item img {
+    height: 400px;
+}
+
+.card img {
+    height: 300px;
+}
+
+.product_card {
+    height: 500px;
+}
+
+.card .discription {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* height:0px; */
+}
+
+.rupee:before {
+    content: "\20B9";
+}
+.map-container {
+    width: 100%;
+    height: 400px; /* Adjust the height as needed */
+}
